@@ -3,7 +3,7 @@ C++ python runnner with boost.python
 
 # Dependencies
 ## Boost.Python
-You can use apt install this library on Ubuntu list that:
+You can use apt install this library on Ubuntu like that:
 ```bash
 ~$ sudo apt install libboost-python-dev
 ```

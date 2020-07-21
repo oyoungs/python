@@ -34,6 +34,7 @@
 # Directories
 .idea/
 .vscode/
+bin/
 build/
 cmake-build-debug/
 

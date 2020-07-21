@@ -96,7 +96,7 @@ namespace oyoung {
             std::ifstream input(filepath);
 
             if (not input.is_open()) {
-                throw std::invalid_argument("No such file: " + filepath);
+                throw std::invalid_argument("Open file " + filepath + " failed: No such file");
             }
 
             return std::string(

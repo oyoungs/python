@@ -26,6 +26,12 @@ print json.dumps({
     }
 
 
+    if (not executor.exec_file("test/python/NotFound.py", error)) {
+        std::cerr << error << std::endl;
+    }
+
+
+
 
     return 0;
 }

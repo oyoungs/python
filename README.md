@@ -52,7 +52,7 @@ print json.dumps({
 
 ```
 
-2. execute python code from string
+2. execute python code from file
 
 ```cpp
 #include <oyoung/python.hpp>
